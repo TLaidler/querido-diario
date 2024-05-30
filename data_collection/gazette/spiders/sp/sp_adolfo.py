@@ -6,5 +6,5 @@ from gazette.spiders.base.dosp import DospGazetteSpider
 class SpAdolfoSpider(DospGazetteSpider):
     TERRITORY_ID = "3500204"
     name = "sp_adolfo"
-    code = 4650
-    start_date = date(2015, 5, 14)  # edition number 1
+    start_urls = ["https://www.imprensaoficialmunicipal.com.br/adolfo"]
+    start_date = date(2015, 5, 14)
